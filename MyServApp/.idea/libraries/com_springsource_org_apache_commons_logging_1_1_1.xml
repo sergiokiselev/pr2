@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="com.springsource.org.apache.commons.logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tiles.core-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tiles.jsp-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tiles.servlet-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tiles-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta-regexp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-analyzers-common-4.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-core-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-core-4.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-core-4.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-queries-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-queryparser-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lucene-sandbox-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

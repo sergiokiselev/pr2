@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tomcat:bootstrap:5.5.23" type="repository">
+    <properties maven-id="tomcat:bootstrap:5.5.23" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/bootstrap-5.5.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

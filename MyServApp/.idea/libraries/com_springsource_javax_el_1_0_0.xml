@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.springsource.javax.el-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.javax.el-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

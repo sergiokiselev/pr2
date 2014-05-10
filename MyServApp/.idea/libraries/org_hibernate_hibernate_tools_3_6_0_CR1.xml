@@ -1,0 +1,40 @@
+<component name="libraryTable">
+  <library name="org.hibernate:hibernate-tools:3.6.0.CR1" type="repository">
+    <properties maven-id="org.hibernate:hibernate-tools:3.6.0.CR1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-tools-3.6.0.CR1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-core-3.6.9.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-commons-annotations-3.2.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-entitymanager-3.6.9.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cglib-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.12.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logkit-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/avalon-framework-4.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ant-1.6.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jtidy-r8-20060801.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.eclipse.jdt.core-3.8.0.v_C03.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/text-3.2.0-v20060605-1400.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commands-3.3.0-I20070605-0010.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/common-3.2.0-v20060603.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/runtime-3.2.0-v20060603.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/osgi-3.9.1-v20140110-1610.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jobs-3.5.300-v20130429-1813.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/registry-3.5.301-v20130717-1549.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/preferences-3.5.100-v20130422-1538.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/contenttype-3.4.200-v20130326-1255.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

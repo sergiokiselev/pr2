@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.tiles:com.springsource.org.apache.tiles:2.1.4" type="repository">
+    <properties maven-id="org.apache.tiles:com.springsource.org.apache.tiles:2.1.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.tiles-2.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

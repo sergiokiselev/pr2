@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="org.terracotta.modules:tim-cglib-2.1.3:1.6.2" type="repository">
+    <properties maven-id="org.terracotta.modules:tim-cglib-2.1.3:1.6.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tim-cglib-2.1.3-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tim-api-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/knopflerfish-tc-2.0.1-20100706.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/thirdparty-api-1.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dso-cluster-api-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2878661422">
+    <data-source source="LOCAL" name="hibernate.cfg.xml" uuid="ac54509d-6204-4b51-a57f-80d066ee340f">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db1</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf9bdf9bdf9bdf9bdf9bdf9bdf9b</user-password>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Sergio\IdeaProjects\MyServApp\lib\mysql-connector-java-5.1.15.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="src:hibernate.cfg.xml" uuid="30f6da99-3b77-48fa-ac5f-05790de8a271">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/db1</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9bdf9bdf9bdf9bdf9bdf9bdf9bdf9b</user-password>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Sergio\IdeaProjects\MyServApp\lib\mysql-connector-java-5.1.15.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="defaultPersistenceUnit" uuid="4bbd7b18-f2b5-4d92-af63-aaa80d9f7d6c">
+      <driver-ref>hsqldb.remote</driver-ref>
+      <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:mem:spring</jdbc-url>
+      <user-name>sa</user-name>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

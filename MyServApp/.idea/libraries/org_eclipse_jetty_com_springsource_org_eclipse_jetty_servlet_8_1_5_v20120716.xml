@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.eclipse.jetty:com.springsource.org.eclipse.jetty-servlet:8.1.5.v20120716" type="repository">
+    <properties maven-id="org.eclipse.jetty:com.springsource.org.eclipse.jetty-servlet:8.1.5.v20120716" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.eclipse.jetty-servlet-8.1.5.v20120716.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.springsource.org.hibernate.validator-4.2.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.hibernate.validator-4.2.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.hibernate-4.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

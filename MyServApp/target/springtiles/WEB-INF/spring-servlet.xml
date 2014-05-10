@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+        xsi:schemaLocation="
+	http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.springapp.mvc"/>
+
+    <mvc:annotation-driven/>
+
+    <mvc:resources location="/,
+        classpath:/META-INF/web-resources/" mapping="resources**"/>
+
+    <mvc:default-servlet-handler/>
+
+
+    <mvc:interceptors>
+        <bean
+                class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
+                p:paramName="lang" />
+
+        <bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor" p:paramName="theme"/>
+    </mvc:interceptors>
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.view.tiles2.TilesConfigurer" id="tilesConfigurer">
+        <property name="definitions">
+            <list>
+                <value>/WEB-INF/tiles-definitions.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.springframework.context.support.ReloadableResourceBundleMessageSource"
+          id="messageSource"
+          p:basenames="WEB-INF/i18n/message,WEB-INF/i18n/application"
+          p:fallbackToSystemLocale="false"/>
+
+    <bean class="org.springframework.web.servlet.i18n.CookieLocaleResolver"
+          id="localeResolver" p:cookieName="locale"/>
+
+    <bean class="org.springframework.ui.context.support.ResourceBundleThemeSource"
+            id="themeSource"/>
+    <bean class="org.springframework.web.servlet.theme.CookieThemeResolver"
+                id="themeResolver" p:cookieName="theme" p:defaultThemeName="standard"/>
+
+    <!--<bean id="db1"-->
+          <!--class="org.springframework.jdbc.datasource.DriverManagerDataSource"-->
+          <!--p:driverClassName="${jdbc.driverClassName}"-->
+          <!--p:url="${jdbc.databaseurl}"-->
+          <!--p:username="${jdbc.username}"-->
+          <!--p:password="${jdbc.password}" />-->
+
+    <!--<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />-->
+
+    <mvc:resources mapping="/css/**" location="/resources/css/" />
+    <!--<mvc:resources mapping="/images/**" location="WEB-INF/jsp/images/" />-->
+    <!--<mvc:resources mapping="/js/**" location="WEB-INF/js/" />-->
+</beans>
